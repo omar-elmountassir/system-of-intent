@@ -103,6 +103,12 @@ Every action traces back to explicit user intent. No implicit behaviors.
 - **Gemini CLI (`gemini`)**: Installed and ready for use
 - **Codex CLI (`codex`)**: Installed and ready for use
 
+### Mind Connection
+
+- **Repository**: https://github.com/omar-elmountassir/system-of-intent (Public Access Confirmed)
+- **Status**: Connected and accessible to the Mind
+- **Established**: 2026-01-05
+
 ## Logs
 
 [Logs](./logs/README.md)

@@ -11,7 +11,7 @@
 ## Phase 2: Connectivity (The Bridge)
 
 - [x] **GitHub Sync**: Initialize remote 'origin', authenticate via `gh`, and push the initial System of Intent.
-- [ ] **Repo Sharing**: Share the repository URL with the "Mind" (Gemini Web Interface) to close the loop.
+- [x] **Repo Sharing**: Share the repository URL with the "Mind" (Gemini Web Interface) to close the loop.
 
 ## Phase 3: The Workforce (Agents)
 
