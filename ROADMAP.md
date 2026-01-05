@@ -15,8 +15,8 @@
 ## Phase 3: The Workforce (Agents)
 
 - [ ] **Claude Optimization**: Tune settings (auto-compact, permissions) in `settings.json` or CLI config.
-- [ ] **Codex Verification**: Debug `codex` CLI (it had issues locating the command previously) and verify usability.
-- [ ] **Role Definition**: Update `AGENTS.md` to explicitly define what Gemini CLI and Codex are used for vs. Claude.
+- [x] **Codex Verification**: Debug `codex` CLI (it had issues locating the command previously) and verify usability.
+- [x] **Role Definition**: Update `AGENTS.md` to explicitly define what Gemini CLI and Codex are used for vs. Claude.
 - [ ] **Handover Protocol**: Document how to pass context from one agent to another.
 
 ## Phase 4: Operations & Architecture

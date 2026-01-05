@@ -47,27 +47,23 @@ Every action traces back to explicit user intent. No implicit behaviors.
 
 ## Current
 
-## System
-
 ### Configuration
+
+#### System
 
 - Default Shell: Zsh (`/usr/bin/zsh`)
 - VS Code Terminal: Bash (configured in settings.json)
 - Bash Enhancements: ble.sh + Starship prompt
 
-## AI Agents Workforce
-
 ### Registries
 
-### Agents Registry
+#### AI Agents Workforce Registry
 
 | Agent        | Status | Version | Path                                                | Role                                                                                       |
 | ------------ | ------ | ------- | --------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 | Claude Code  | Active | v2.0.76 | `/home/omar/.nvm/versions/node/v24.12.0/bin/claude` | Primary execution agent for system configuration, code implementation, and file operations |
-| Gemini CLI   | Active | v0.22.5 | `/home/omar/.nvm/versions/node/v24.12.0/bin/gemini` | To be defined                                                                              |
-| OpenAI Codex | Active | v0.77.0 | `/home/omar/.nvm/versions/node/v24.12.0/bin/codex`  | To be defined                                                                              |
-
-### Configuration
+| Gemini CLI   | Verified | v0.22.5 | `/home/omar/.nvm/versions/node/v24.12.0/bin/gemini` | Interactive AI agent for prompt-based tasks, MCP server management, and extensions         |
+| OpenAI Codex | Verified | v0.77.0 | `/home/omar/.nvm/versions/node/v24.12.0/bin/codex`  | Code generation, review, and sandboxed execution agent with MCP support                   |
 
 #### Environment
 
@@ -101,15 +97,7 @@ Every action traces back to explicit user intent. No implicit behaviors.
 
 ## Logs
 
-### Decision
-
-#### 2026-01-04: Initial System Setup
-
-- Configured VS Code to force Bash terminal (already present in settings.json)
-- Created agent tracking system (AGENTS.md)
-- Established "Everything-as-Code" principle
-
----
+[Logs](./logs/README.md)
 
 ## Next Steps
 
