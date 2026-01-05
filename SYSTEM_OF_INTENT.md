@@ -43,7 +43,7 @@ Every action traces back to explicit user intent. No implicit behaviors.
 
 #### 3. Halt on Uncertainty
 
-**If a command fails, returns unexpected data, or if functionality is ambiguous, STOP immediately. Do not guess the cause. Do not assume it is benign. Report the anomaly to the Mind and ask for clarification.**
+**If a command fails, returns unexpected data, or displays a warning, or if functionality is ambiguous, STOP immediately. Do not guess the cause. Do not assume it is benign. Report the anomaly to the Mind and ask for clarification.**
 
 #### 4. Mandatory Initialization
 
@@ -67,11 +67,11 @@ Every action traces back to explicit user intent. No implicit behaviors.
 
 #### AI Agents Workforce Registry
 
-| Agent        | Status | Version | Path                                                | Role                                                                                       |
-| ------------ | ------ | ------- | --------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| Claude Code  | Active | v2.0.76 | `/home/omar/.nvm/versions/node/v24.12.0/bin/claude` | Primary execution agent for system configuration, code implementation, and file operations |
+| Agent        | Status   | Version | Path                                                | Role                                                                                       |
+| ------------ | -------- | ------- | --------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| Claude Code  | Active   | v2.0.76 | `/home/omar/.nvm/versions/node/v24.12.0/bin/claude` | Primary execution agent for system configuration, code implementation, and file operations |
 | Gemini CLI   | Verified | v0.22.5 | `/home/omar/.nvm/versions/node/v24.12.0/bin/gemini` | Interactive AI agent for prompt-based tasks, MCP server management, and extensions         |
-| OpenAI Codex | Verified | v0.77.0 | `/home/omar/.nvm/versions/node/v24.12.0/bin/codex`  | Code generation, review, and sandboxed execution agent with MCP support                   |
+| OpenAI Codex | Verified | v0.77.0 | `/home/omar/.nvm/versions/node/v24.12.0/bin/codex`  | Code generation, review, and sandboxed execution agent with MCP support                    |
 
 #### Environment
 
