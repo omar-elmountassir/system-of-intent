@@ -16,7 +16,7 @@ This file records all incidents where agent behavior violated or nearly violated
 - Did NOT add research tasks to ROADMAP.md first
 - Would have ignored this violation if the Mind hadn't stopped
 
-**Root cause**: "Heuristique de la Facilite" - assumed sub-agents would "just work"
+**Root cause**: "Heuristique de la Facilité" - assumed sub-agents would "just work"
 
 **Corrective actions**:
 1. Incident documented
