@@ -1,0 +1,116 @@
+# System of Intent
+
+## Core
+
+### Philosophy
+
+This workstation operates on a "Mind-Body" paradigm:
+
+- **Mind**: Omar - Strategic direction and intent
+- **Body**: AI Agents - Execution and implementation
+
+## Principles
+
+### Architectural
+
+#### 1. Everything-as-Code
+
+All system configurations, workflows, and decisions are documented and version-controlled.
+
+#### 2. Agent Orchestration
+
+Multiple AI agents work in concert, each with specialized capabilities:
+
+- Claude Code: System configuration, code implementation
+- Gemini CLI: TBD
+- OpenAI Codex: TBD
+
+#### 3. Intentional Computing
+
+Every action traces back to explicit user intent. No implicit behaviors.
+
+## Rules
+
+### Golden Rules [MANDATORY]
+
+#### 1. Persistence First
+
+**Nothing remains in chat. Every decision, status change, or new information MUST be recorded in the repository files immediately.**
+
+#### 2. ???
+
+- If NEVER READ, ALWAYS START BY READING ONCE:
+  - [System of Intent](SYSTEM_OF_INTENT.md)
+  - [Roadmap](ROADMAP.md)
+- ALL WORK IN HAND MUST BE ENTER IN / ADDED TO OUR ROADMAP FIRST!
+- AGENTS MUST MAINTAIN THE ROADMAP UPDATING IT EACH TIME A PROGRESS IS MADE!
+
+## Current
+
+## System
+
+### Configuration
+
+- Default Shell: Zsh (`/usr/bin/zsh`)
+- VS Code Terminal: Bash (configured in settings.json)
+- Bash Enhancements: ble.sh + Starship prompt
+
+## AI Agents Workforce
+
+### Registries
+
+### Agents Registry
+
+| Agent        | Status | Version | Path                                                | Role                                                                                       |
+| ------------ | ------ | ------- | --------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| Claude Code  | Active | v2.0.76 | `/home/omar/.nvm/versions/node/v24.12.0/bin/claude` | Primary execution agent for system configuration, code implementation, and file operations |
+| Gemini CLI   | Active | v0.22.5 | `/home/omar/.nvm/versions/node/v24.12.0/bin/gemini` | To be defined                                                                              |
+| OpenAI Codex | Active | v0.77.0 | `/home/omar/.nvm/versions/node/v24.12.0/bin/codex`  | To be defined                                                                              |
+
+### Configuration
+
+#### Environment
+
+##### Terminal
+
+// TODOs: TO BE VERIFIED FACTUALLY!
+
+- **Default Shell**: Zsh (system-wide) // TODO: MUST BE SWITCHED TO BASH ONCE ZSH MIGRATION IS DONE
+- **VS Code Terminal**: Bash (application-specific override)
+- **Shell Enhancements**:
+  - ble.sh for enhanced line editing
+  - Starship for cross-shell prompts
+
+#### Settings
+
+##### VS Code
+
+// TODOs: TO BE VERIFIED FACTUALLY!
+
+- Terminal default profile: Bash
+- Security: Workspace trust enabled
+- Telemetry: Disabled
+- Auto-save: Enabled with delay
+
+### Tooling
+
+- **GitHub CLI (`gh`)**: Installed and ready for use
+- **Claude CLI (`claude`)**: Installed and ready for use
+- **Gemini CLI (`gemini`)**: Installed and ready for use
+- **Codex CLI (`codex`)**: Installed and ready for use
+
+## Logs
+
+### Decision
+
+#### 2026-01-04: Initial System Setup
+
+- Configured VS Code to force Bash terminal (already present in settings.json)
+- Created agent tracking system (AGENTS.md)
+- Established "Everything-as-Code" principle
+
+---
+
+## Next Steps
+
+ALL OUR NEXTS STEPS (EVEN THOSE RECOMMMANDED, SUGGESTED, ETC.. MUST BE ENTERED IN / ADDED TO OUR ROADMAP IMMEDIATLY !!! NEVER IN THE CHAT!) [ROADMAP.md](ROADMAP.md)
