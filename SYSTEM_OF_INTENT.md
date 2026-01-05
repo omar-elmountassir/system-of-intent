@@ -53,6 +53,35 @@ Every action traces back to explicit user intent. No implicit behaviors.
 - ALL WORK IN HAND MUST BE ENTER IN / ADDED TO OUR ROADMAP FIRST!
 - AGENTS MUST MAINTAIN THE ROADMAP UPDATING IT EACH TIME A PROGRESS IS MADE!
 
+#### 5. ROADMAP First (ZERO TOLERANCE)
+
+**ALL work must be registered in ROADMAP.md BEFORE execution.**
+- No exceptions - even simple Read operations
+- All agents must migrate their work plans to ROADMAP.md
+- Work must be atomically broken down
+- Systematically registered for tracking
+- This enables proper tracking and continuous improvement
+
+#### 6. Sub-Agent Context Responsibility
+
+**Sub-agents are BLANK SLATES. The orchestrator MUST:**
+- Prepare comprehensive context before launching
+- Include ALL relevant rules, constraints, and system knowledge
+- Provide specific file paths and code references
+- Never assume sub-agents "know" anything
+- Think hard before prompting - they have no memory
+
+#### 7. Flag It. Log It. Fix It.
+
+**When an issue is identified:**
+1. FLAG IT - Acknowledge the issue immediately
+2. LOG IT - Record in incident log with full details
+3. FIX IT - Implement corrective actions
+4. UPDATE - Update all relevant documentation
+5. REPORT - Create comprehensive report
+
+**Incident Log Location**: `logs/incidents/README.md`
+
 ## Current
 
 ### Configuration
