@@ -72,6 +72,27 @@
 
 ---
 
+## Anti-Pattern: "Repetition Burden"
+
+**DEFINITION**: When the Mind must repeatedly remind agents of tasks that should be automatic.
+
+**SYMPTOMS**:
+1. Mind asks "did you update SESSION_LOG?"
+2. Agent forgets mandatory session-end tasks
+3. Same instructions given across multiple sessions
+4. Defeats purpose of documented protocols
+
+**ROOT CAUSE**: No enforcement mechanism for session-end responsibilities.
+
+**RULE**: If an agent task is mandatory at session end, it MUST be:
+1. Documented in a checklist
+2. Enforced via hooks (when possible)
+3. Self-triggered, not Mind-triggered
+
+**SOLUTION**: Session End Protocol in CLAUDE.md (mandatory checklist).
+
+---
+
 ## Workforce Registry
 
 | Agent        | Status   | Version | Role                                                      |

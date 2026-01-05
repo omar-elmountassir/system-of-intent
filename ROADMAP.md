@@ -64,12 +64,13 @@
 
 ## Future: Automation & Hooks
 
-- [ ] **Fork/Clone Hook Repositories**:
-  - https://github.com/disler/claude-code-hooks-mastery
-  - https://github.com/disler/claude-code-hooks-multi-agent-observability
-  - https://github.com/disler/claude-code-damage-control
-- [ ] **Create Custom Hooks**: Prevent agent mistakes via automated enforcement
+- [ ] **Fork/Clone Hook Repositories to then study them and create a comprehensive `knowledge` folder to store all we learned and all we'll learn as well as created the rule(s) for our agents to also do so WHEN ever they learn something new!**:
+  - <https://github.com/disler/claude-code-hooks-mastery>
+  - <https://github.com/disler/claude-code-hooks-multi-agent-observability>
+  - <https://github.com/disler/claude-code-damage-control>
+- [ ] **Using the knowledge Create Custom Hooks**: Prevent agent mistakes via automated enforcement
 - [ ] **Self-Testing Framework**: Use `claude -p` for agent self-verification
 - [ ] **Output Redirection Hook**: Implement UserPromptSubmit hook to prevent chat-based outputs
 - [ ] **Session Init Hook**: Implement SessionStart hook to auto-load context
+- [ ] **Session End Hook**: Implement PreCompact/SessionEnd hook to auto-trigger checklist
 - [ ] **Sub-Agent Registry Automation**: Auto-remind orchestrator of available agents

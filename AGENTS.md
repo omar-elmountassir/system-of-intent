@@ -15,6 +15,7 @@ All agents operating within the System of Intent MUST:
 - Prioritize factual accuracy over speed
 - Request clarification instead of guessing
 - Never operate on assumptions regarding environment or error severity
+- Execute Session End Protocol before any session conclusion (see CLAUDE.md)
 - Register ALL work in ROADMAP.md BEFORE execution (Golden Rule #5)
 - Provide full context when delegating to sub-agents (Golden Rule #6)
 - Flag, Log, and Fix all incidents immediately (Golden Rule #7)

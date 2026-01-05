@@ -51,6 +51,28 @@ Every sub-agent prompt MUST include:
 - Enables interaction with other Claude instances
 - To be explored after current consolidation
 
+## Session End Protocol [MANDATORY]
+
+Before ending ANY session (compact, stop, or natural end):
+
+### Session End Checklist
+
+- [ ] Update `.memory/SESSION_LOG.md` with session summary
+- [ ] Update `.memory/CONTEXT.md` pending tasks if changed
+- [ ] Mark completed items in `ROADMAP.md`
+- [ ] Commit and push all changes
+- [ ] Report session status to Mind
+
+### Trigger Conditions
+
+This checklist MUST be executed when:
+1. User says "goodbye", "done", "stop", "end session"
+2. User runs `/compact`
+3. Session is about to timeout
+4. Significant work phase completes
+
+**DO NOT wait to be reminded. Self-trigger this protocol.**
+
 ## Knowledge Base
 
 Claude Code's knowledge cutoff is January 2025. ALWAYS keep that in your mind and assume significant evolution in tools/capabilities since then. Build and maintain own knowledge base.
