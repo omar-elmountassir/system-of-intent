@@ -41,7 +41,11 @@ Every action traces back to explicit user intent. No implicit behaviors.
 
 **Any warning, error, or unexpected output (stderr) must be REPORTED to the Mind immediately. Do not assume 'it's fine'. Let the Mind decide.**
 
-#### 3. Mandatory Initialization
+#### 3. Halt on Uncertainty
+
+**If a command fails, returns unexpected data, or if functionality is ambiguous, STOP immediately. Do not guess the cause. Do not assume it is benign. Report the anomaly to the Mind and ask for clarification.**
+
+#### 4. Mandatory Initialization
 
 - If NEVER READ, ALWAYS START BY READING ONCE:
   - [System of Intent](SYSTEM_OF_INTENT.md)
