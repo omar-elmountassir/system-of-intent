@@ -23,26 +23,39 @@
 ## Phase 3.5: Consolidation & Architecture
 
 ### Rule Documentation
+
 - [x] **Add Golden Rules 5-7**: ROADMAP First, Sub-Agent Context, Flag-Log-Fix
 - [x] **Create Incident Log**: `logs/incidents/README.md` with tracking system
 - [x] **Establish Orchestrator Protocol**: Update CLAUDE.md with Lead Orchestrator role
 
 ### Research Tasks
-- [ ] **Explore Repository Structure**: Map all files, identify SSOT violations, note duplications
-- [ ] **Research Claude Code CLI Evolution**: What's new since Jan 2025?
-- [ ] **Research Project Structure Best Practices**: How modern Claude Code projects organize
-- [ ] **Research MCP Server Patterns**: Conventions and patterns
+
+- [x] **Explore Repository Structure**: Map all files, identify SSOT violations, note duplications
+- [x] **Research Claude Code CLI Evolution**: What's new since Jan 2025?
+- [x] **Research Project Structure Best Practices**: How modern Claude Code projects organize
+- [x] **Research MCP Server Patterns**: Conventions and patterns
 
 ### Documentation Tasks
+
 - [ ] **Complete Session Persistence Audit**: Backlog from Plan A
 - [ ] **Convert Files to English**: All agent-facing files must be English
 - [ ] **Create Standardized Headers**: Knowledge Graph with navigation links
 
 ### Architecture Tasks
+
 - [ ] **Design Directory Structure**: Propose /docs, /config, /scripts, /registry, /logs structure
 - [ ] **Create Migration Plan**: Step-by-step restructure plan
 - [ ] **Implement Directory Restructure**: Execute the migration
 - [ ] **Create Symlink Automation**: install.sh for dotfiles-as-code
+
+### Resource Organization (Current)
+
+- [ ] **Create resources/ directory**: Centralize reusable templates and guides
+- [ ] **Create archives/ directory**: Historical preservation per Golden Rule #8
+- [ ] **Document Golden Rule #8**: Archive Over Delete principle
+- [ ] **Document Documentation Theater**: New anti-pattern identification
+- [ ] **Migrate resources**: Move AGENT_CONTEXT_TEMPLATE.md, COMPACT_TEMPLATE.md
+- [ ] **Archive SESSION_LOG_TEMPLATE.md**: Example of Documentation Theater
 
 ## Phase 4: Operations & Architecture
 
@@ -57,3 +70,6 @@
   - https://github.com/disler/claude-code-damage-control
 - [ ] **Create Custom Hooks**: Prevent agent mistakes via automated enforcement
 - [ ] **Self-Testing Framework**: Use `claude -p` for agent self-verification
+- [ ] **Output Redirection Hook**: Implement UserPromptSubmit hook to prevent chat-based outputs
+- [ ] **Session Init Hook**: Implement SessionStart hook to auto-load context
+- [ ] **Sub-Agent Registry Automation**: Auto-remind orchestrator of available agents

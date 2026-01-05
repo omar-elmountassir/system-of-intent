@@ -43,3 +43,31 @@ This file records all incidents where agent behavior violated or nearly violated
 1. Incident documented
 2. Zero self-work rule confirmed
 3. Role clarified: Plan -> Prepare Context -> Launch Agents -> Monitor -> Synthesize
+
+---
+
+## Incident #003 - Synthesis Report Output to Chat
+**Date**: 2026-01-05
+**Severity**: CRITICAL
+**Status**: Flagged by Mind, Corrected
+
+**What happened**:
+- Research sub-agents completed (repo exploration + Claude Code CLI evolution)
+- I synthesized the results into a comprehensive report
+- I OUTPUT THE REPORT DIRECTLY IN CHAT instead of saving to a file
+- This violates Golden Rule #1 (Persistence First)
+- Report was at risk of being lost in chat history
+
+**Additional failures**:
+- Forgot `claude-code-guide` sub-agent exists (specialized for Claude Code documentation)
+- Didn't reference existing `Nouvelle_initiative.md` proposal from Mind
+- No sub-agent registry existed to remind me which agents are available
+
+**Root cause**: Default output behavior - responding in chat instead of persisting to files
+
+**Corrective actions**:
+1. Incident documented (this entry)
+2. Synthesis report saved to `/reports/phase-3.5-research-synthesis.md`
+3. Sub-Agent Registry added to CLAUDE.md
+4. Hooks research completed to prevent future chat-based outputs
+5. `Nouvelle_initiative.md` translated to English

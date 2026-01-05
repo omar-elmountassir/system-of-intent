@@ -9,6 +9,7 @@ This template is used by the Lead Orchestrator (Claude Code) to prepare comprehe
 When launching a sub-agent, the orchestrator MUST include ALL of the following sections:
 
 ### 1. Mission Statement
+
 ```
 You are executing [TASK NAME] for the System of Intent. You are a BLANK SLATE - you have no prior context.
 
@@ -17,6 +18,7 @@ You are executing [TASK NAME] for the System of Intent. You are a BLANK SLATE - 
 ```
 
 ### 2. Repository Context
+
 ```
 ## REPOSITORY LOCATION
 `/home/omar/system-of-intent`
@@ -29,7 +31,9 @@ You are executing [TASK NAME] for the System of Intent. You are a BLANK SLATE - 
 ```
 
 ### 3. Golden Rules Summary
+
 Include relevant rules for the task:
+
 - **Rule #1 - Persistence First**: Record everything to files immediately
 - **Rule #2 - Zero Silent Failures**: Report ALL errors to the Mind
 - **Rule #3 - Halt on Uncertainty**: STOP and ASK, never guess
@@ -37,7 +41,9 @@ Include relevant rules for the task:
 - **Rule #7 - Flag It. Log It. Fix It.**: Document all incidents
 
 ### 4. File Context
+
 For each file the sub-agent will modify:
+
 ```
 ## FILE: [path]
 **Current content** (relevant lines):
@@ -48,7 +54,9 @@ For each file the sub-agent will modify:
 ```
 
 ### 5. Task Details
+
 Break down into numbered tasks:
+
 ```
 ## TASK 1: [Name]
 **File**: [path]
@@ -57,6 +65,7 @@ Break down into numbered tasks:
 ```
 
 ### 6. Git Instructions
+
 ```
 ## COMMIT AND PUSH
 After completing all tasks:
@@ -70,6 +79,7 @@ git push origin main
 ```
 
 ### 7. Verification
+
 ```
 ## VERIFICATION
 After completing, run:
@@ -80,6 +90,7 @@ Report the results.
 ```
 
 ### 8. Prohibitions
+
 ```
 ## DO NOT
 - Do NOT assume anything not explicitly stated
@@ -136,4 +147,4 @@ git status && git log -1
 
 ---
 
-*Last updated: 2026-01-05*
+_Last updated: 2026-01-05_

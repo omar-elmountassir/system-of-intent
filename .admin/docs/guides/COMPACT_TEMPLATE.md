@@ -62,6 +62,7 @@ After this compact, you MUST:
    - Mind approval required for uncertainty resolution
 
 AFTER READING .memory/CONTEXT.md, update it if any new information was learned during this session before the compact.
+DO NOT HESITATE TO GO BEHOND THIS BECAUSE OUR REPO IS EVOLVLING VERY FAST SO PLEASE MAKE SURE TO PRESERVE THE MOST SO THAT THE NEXT INSTANCE REMEMBERS THE MOST!
 ```
 
 ---
@@ -71,7 +72,7 @@ AFTER READING .memory/CONTEXT.md, update it if any new information was learned d
 For faster compacts when less context is needed:
 
 ```text
-MEMORY: Read /home/omar/system-of-intent/.memory/CONTEXT.md immediately after compact. Follow the 4 Golden Rules. Never assume - always verify or ask. Repository: https://github.com/omar-elmountassir/system-of-intent
+MEMORY: Read /home/omar/system-of-intent/.memory/CONTEXT.md immediately after compact. Follow the Golden Rules. Never assume - always verify or ask. Repository: https://github.com/omar-elmountassir/system-of-intent
 ```
 
 ---
@@ -79,7 +80,10 @@ MEMORY: Read /home/omar/system-of-intent/.memory/CONTEXT.md immediately after co
 ## Post-Compact Verification
 
 After compact completes, verify Claude remembers by asking:
-- "What are the 4 Golden Rules?"
+
+Answer this WITHOUT using ANY of your tools!
+
+- "What are the Golden Rules?"
 - "What is the Heuristique de la Facilité?"
 - "What is the GitHub repository URL?"
 

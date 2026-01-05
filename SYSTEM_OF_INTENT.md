@@ -82,6 +82,28 @@ Every action traces back to explicit user intent. No implicit behaviors.
 
 **Incident Log Location**: `logs/incidents/README.md`
 
+#### 8. Archive Over Delete
+
+**PRINCIPLE**: Prefer archiving over deletion to preserve historical context and enable recovery.
+
+**ARCHIVE when**:
+- Configuration files being replaced
+- Documentation being superseded
+- Code being refactored out
+- Templates/resources being deprecated
+- Decision records being updated
+
+**DELETE when** (exceptions - requires justification):
+1. **Security-sensitive** - Credentials, secrets, API keys (purge completely)
+2. **Generated/temporary** - Build artifacts, cache, node_modules
+3. **Exact duplicates** - Content exists verbatim elsewhere
+4. **Privacy-regulated** - GDPR/compliance requires actual deletion
+5. **Malicious content** - Discovered malware/exploits
+6. **Large binaries** - Obsolete media files (storage cost > historical value)
+
+**Archive Location**: `/archives/` with category subdirectories
+**Naming Format**: `YYYY-MM-DD_[original-filename]`
+
 ## Current
 
 ### Configuration
