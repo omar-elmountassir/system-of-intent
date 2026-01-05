@@ -21,9 +21,9 @@ All system configurations, workflows, and decisions are documented and version-c
 
 Multiple AI agents work in concert, each with specialized capabilities:
 
-- Claude Code: System configuration, code implementation
-- Gemini CLI: TBD
-- OpenAI Codex: TBD
+- Claude Code: Lead Orchestrator - system configuration, code implementation, agent coordination
+- Gemini CLI: Interactive AI for prompt-based tasks, MCP server management, extensions
+- OpenAI Codex: Code generation, review, sandboxed execution with MCP support
 
 #### 3. Intentional Computing
 
@@ -137,6 +137,17 @@ Every action traces back to explicit user intent. No implicit behaviors.
 - **Repository**: https://github.com/omar-elmountassir/system-of-intent (Public Access Confirmed)
 - **Status**: Connected and accessible to the Mind
 - **Established**: 2026-01-05
+
+### Archives
+
+- **Legacy Zsh Configuration**: `~/legacy_zsh_archive/`
+  - .zshrc, .zshenv, .zsh_history, .fzf.zsh, .zcompdump, .zshrc.backup.*
+
+### Navigation Shortcuts
+
+- `goto-soi` → Jump to System of Intent repository
+- `soi` → Alias for goto-soi
+- Location: `~/.bashrc`
 
 ## Logs
 

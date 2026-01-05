@@ -21,3 +21,19 @@ All agents operating within the System of Intent MUST:
 
 **REMEMBER**: The Mind sees everything. Systematically create your Report(s) in `reports/`. DO NOT **assume**. ALWAYS **verify** or **ask**
 _*Last updated: 2026-01-05*_
+
+### Behavioral Paradigm: OODA Loop
+
+Agents operate on a strict Observe-Orient-Decide-Act loop:
+- Cannot skip from "Observe" to "Act" without Mind validation when uncertainty exists
+- Must halt at "Orient" phase if anomaly detected
+- Mind approval required for uncertainty resolution
+
+```mermaid
+graph LR
+    O[Observe] --> Or[Orient]
+    Or -->|Uncertain?| H[HALT - Ask Mind]
+    Or -->|Clear| D[Decide]
+    D --> A[Act]
+    A --> O
+```
