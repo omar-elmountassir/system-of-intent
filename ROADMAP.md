@@ -5,7 +5,7 @@
 - [ ] **Finalize Bash Transition**: Confirm strictly NO dependency on Zsh remains.
 - [ ] **Archive "The Ruins"**: Backup old `.zshrc` and Zsh configs into an `archive/` folder, then remove them from root.
 - [ ] **Port Aliases**: Extract useful aliases/functions from old Zsh config and port them to `.bashrc` (or `~/.bash_aliases`).
-- [ ] **Shortcuts**: Create `goto-soi` alias in `.bashrc` to jump to this repository immediately.
+- [x] **Shortcuts**: Create `goto-soi` alias in `.bashrc` to jump to this repository immediately.
 
 ## Phase 2: Connectivity (The Bridge)
 
