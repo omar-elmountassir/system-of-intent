@@ -1,4 +1,8 @@
-# Decisions
+# Decision Log
+
+## Purpose
+
+This file records all decisions made.
 
 ## 2026-01-04: Initial System Setup
 
@@ -11,7 +15,7 @@
 ### Infrastructure
 
 - Git repository re-initialized after .git loss
-- GitHub remote established: https://github.com/omar-elmountassir/system-of-intent
+- GitHub remote established: <https://github.com/omar-elmountassir/system-of-intent>
 - Legacy Zsh files archived to ~/legacy_zsh_archive/
 - Repository made public for Mind access
 
@@ -54,4 +58,4 @@ Agent tendency to fill unknowns with probabilities instead of stopping:
 
 - Claude Code designated as Lead Orchestrator
 - Zero self-work rule: delegate everything to sub-agents
-- Incident log created at logs/incidents/README.md
+- Incident log created at [Logs - Incidents](/logs/incidents/README.md)

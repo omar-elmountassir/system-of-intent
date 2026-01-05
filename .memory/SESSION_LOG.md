@@ -2,6 +2,16 @@
 
 > **PURPOSE**: Running log of all sessions to ensure continuity across compacts.
 
+<!--
+SESSION LOG STRUCTURE:
+- Date: YYYY-MM-DD: [Title]
+- Summary section
+- Changes/Infrastructure section
+- Decisions/Discoveries section
+- Roadmap Progress section
+- End State/Pending section
+-->
+
 ---
 
 ## 2026-01-05: System Consolidation & Discipline Enforcement
@@ -63,6 +73,4 @@ Monumental session establishing the complete System of Intent infrastructure.
 
 ---
 
-## Template for All Sessions
-
-[Template for All Sessions](/.memory/SESSION_LOG_TEMPLATE.md)
+<!-- Template archived to /archives/deprecated-templates/2026-01-05_SESSION_LOG_TEMPLATE.md per Golden Rule #8 -->

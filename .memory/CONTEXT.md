@@ -51,6 +51,27 @@
 
 ---
 
+## Anti-Pattern: "Documentation Theater"
+
+**DEFINITION**: Creating documentation artifacts that appear structured but provide no actual value.
+
+**SYMPTOMS**:
+1. Template not followed in practice
+2. Content is self-evident (anyone would write it naturally)
+3. Creates SSOT violation (template vs reality diverge)
+4. Maintenance burden exceeds value
+
+**EXAMPLE**: SESSION_LOG_TEMPLATE.md (archived 2026-01-05)
+- Template said "Changes Made", actual log used "Infrastructure Changes"
+- Template structure was obvious - no checklist value
+- Template and log diverged immediately
+
+**RULE**: If a template provides no more value than the artifact itself, it is theater.
+
+**ACTION**: Archive as example of anti-pattern (per Golden Rule #8), don't replicate.
+
+---
+
 ## Workforce Registry
 
 | Agent        | Status   | Version | Role                                                      |
@@ -132,6 +153,16 @@ alias soi='goto-soi'
 - [x] Role Definition
 - [ ] Claude Optimization
 - [ ] Handover Protocol
+
+### Phase 3.5: Resource Organization
+
+- [x] Create resources/ directory
+- [x] Create archives/ directory
+- [x] Document Golden Rule #8 (Archive Over Delete)
+- [x] Document Documentation Theater anti-pattern
+- [x] Migrate AGENT_CONTEXT_TEMPLATE.md to resources/
+- [x] Migrate COMPACT_TEMPLATE.md to resources/
+- [x] Archive SESSION_LOG_TEMPLATE.md (Documentation Theater example)
 
 ### Phase 4: Operations & Architecture
 
