@@ -37,7 +37,11 @@ Every action traces back to explicit user intent. No implicit behaviors.
 
 **Nothing remains in chat. Every decision, status change, or new information MUST be recorded in the repository files immediately.**
 
-#### 2. ???
+#### 2. Zero Silent Failures
+
+**Any warning, error, or unexpected output (stderr) must be REPORTED to the Mind immediately. Do not assume 'it's fine'. Let the Mind decide.**
+
+#### 3. Mandatory Initialization
 
 - If NEVER READ, ALWAYS START BY READING ONCE:
   - [System of Intent](SYSTEM_OF_INTENT.md)

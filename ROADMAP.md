@@ -6,6 +6,7 @@
 - [ ] **Archive "The Ruins"**: Backup old `.zshrc` and Zsh configs into an `archive/` folder, then remove them from root.
 - [ ] **Port Aliases**: Extract useful aliases/functions from old Zsh config and port them to `.bashrc` (or `~/.bash_aliases`).
 - [x] **Shortcuts**: Create `goto-soi` alias in `.bashrc` to jump to this repository immediately.
+- [ ] **Linting & Validation**: Setup shellcheck or similar to validate .bashrc changes automatically to avoid blind errors.
 
 ## Phase 2: Connectivity (The Bridge)
 
